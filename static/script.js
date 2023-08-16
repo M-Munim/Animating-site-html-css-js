@@ -32,7 +32,7 @@ gsap.to("#main", {
         trigger: "main",
         scroller: "body",
         start: "top -40%",
-        end: "top -100% ",
+        end: "top -70% ",
         scrub: 1
     }
 })
