@@ -19,7 +19,6 @@ h4all.forEach(function (elem) {
     })
 })
 
-// let h4all = document.querySelectorAll("#nav h4")
 h4all.forEach(function (elem) {
     elem.addEventListener("mouseleave", function () {
         crsr.style.scale = 1
@@ -113,8 +112,8 @@ gsap.from("#page4 h1", {
         trigger: "#page4 h1",
         scroller: "body",
         // markers:true,
-        start: "top 75%",
-        end: "top 70%",
+        start: "top 70%",
+        end: "top 50%",
         scrub: 3,
     },
 });
